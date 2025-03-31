@@ -20,3 +20,11 @@ body {
   font-size: 2rem;
   padding: 0.5rem;
 }
+
+.box:first-child {
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
