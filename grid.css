@@ -10,8 +10,14 @@ body {
 }
 
 .container {
+  min-height: 400px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: repeat(2, 1fr, 2fr);
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.el {
+  background-color: rebeccapurple;
 }
 
 .box {
@@ -29,10 +35,11 @@ body {
   align-content: center;
   justify-content: center;
   place-content: center;
+  gap: 1em;
 }
 
 .box:nth-child(2) {
   background-color: purple;
   grid-column: 1 / 5;
-  grid: row: 3 / 4;
+  grid-row: 3 / 4;
 }
