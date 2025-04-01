@@ -26,6 +26,10 @@ body {
   display: grid;
 }
 
+.footer {
+  background-color: aliceblue;
+}
+
 .box {
   background-color: #000;
   color: #fff;
