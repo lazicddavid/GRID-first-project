@@ -101,7 +101,13 @@ body {
 }
 
 @media (max-width: 600px) {
-}
-.container {
-  flex-direction: column;
+  .testimonials {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .card {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
 }
