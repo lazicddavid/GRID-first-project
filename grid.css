@@ -99,3 +99,9 @@ body {
   grid-column: 2 / 4;
   grid-row: 2;
 }
+
+@media (max-width: 600px) {
+}
+.container {
+  flex-direction: column;
+}
